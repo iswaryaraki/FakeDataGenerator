@@ -1,0 +1,17 @@
+{
+  "name": "data-generator",
+  "version": "1.0.0",
+  "description": "To generate mock data from a mongo db json schema",
+  "main": "generate.js",
+  "scripts": {
+    "start": "node generate.js"
+  },
+  "author": "Iswarya Radhakrishnan",
+  "license": "ISC",
+  "dependencies": {
+    "json-schema-faker": "^0.5.0-rc15",
+    "faker": "4.1.0",
+    "fs": "0.0.1-security",
+    "yargs": "^11.0.0"
+  }
+}

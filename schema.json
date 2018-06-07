@@ -1,0 +1,25 @@
+{
+        "type": "object",
+        "properties": {
+          "user": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer",
+                "faker": "random.number"
+              },
+              "name": {
+                "type": "string",
+                "faker": "name.findName"
+              },
+              "email": {
+                "type": "string",
+                "format": "email",
+                "faker": "internet.email"
+              }
+            },
+            "required": ["id", "name", "email"]
+          }
+        },
+      "required": ["user"]
+}
